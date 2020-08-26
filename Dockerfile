@@ -8,4 +8,4 @@ RUN wget -O kustomize.tar.gz https://github.com/kubernetes-sigs/kustomize/releas
   mv kustomize /usr/local/bin/kustomize && \
   rm kustomize.tar.gz
 
-ENTRYPOINT [ "kustomize" ]
+ENTRYPOINT [ "sh" ]
